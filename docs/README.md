@@ -68,4 +68,4 @@ You can use a built in OS archive command to package a Splunk app, for example a
 
 ## App sample
 
-![alt text](https://github.com/baltornat/missileMaps/blob/main/attack_map_sample.png?raw=true).
+![alt text](https://github.com/baltornat/missileMaps/blob/main/docs/images/attack_map_sample.png).
