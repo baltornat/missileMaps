@@ -1,0 +1,26 @@
+{
+  "name": "@splunk/missile-maps",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "build": "lerna run build",
+    "format": "git ls-files | grep -E \"\\.(jsx?|css)$\" | xargs prettier --write",
+    "format:verify": "git ls-files | grep -E \"\\.(jsx?|css)$\" | xargs prettier --list-different",
+    "lint": "lerna run lint --no-sort",
+    "setup": "yarn && lerna run build",
+    "start": "lerna run start --stream --no-sort --concurrency 100",
+    "test": "lerna run test --stream --no-sort",
+    "svg-loader-setup": "./add_svg_loader.sh node_modules/@splunk/webpack-configs/base.config.js && ./add_svg_loader.sh packages/pew-pew/node_modules/@splunk/webpack-configs/base.config.js"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^8.1.0",
+    "lerna": "^2.9.0",
+    "prettier": "^2.0.5"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=14"
+  }
+}
