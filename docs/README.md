@@ -65,3 +65,7 @@ The `@splunk/create` package does not have its own unique packaging functionalit
 You can use a built in OS archive command to package a Splunk app, for example a \*nix system would use a command similar to the one below for `@splunk/create` apps. Note you would need to run this from the `$SPLUNK_HOME/etc/apps` folder.
 
 `COPYFILE_DISABLE=true tar -zcvh --exclude='.gitignore' --exclude='.git' --exclude='local/' --exclude='stage/' --exclude='local.meta' --exclude='.DS_Store' -f <filename>.tar.gz pew-pew/`.
+
+## App sample
+
+![alt text](https://github.com/baltornat/missileMaps/blob/main/attack_map_sample.png?raw=true).
