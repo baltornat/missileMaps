@@ -1,7 +1,6 @@
 import React from 'react';
 
 import layout from '@splunk/react-page';
-import SearchManager from '@splunk/search-manager';
 import { getUserTheme } from '@splunk/splunk-utils/themes';
 
 import { StyledContainer, StyledGreeting } from './StartStyles';
@@ -10,9 +9,11 @@ getUserTheme()
     .then((theme) => {
         layout(
             <StyledContainer>
-                <StyledGreeting>Hello, from inside PewPew!</StyledGreeting>
-                <div>Your component will appear below.</div>
-                <SearchManager name="from inside SearchManager" />
+                <StyledGreeting>Pew Pew</StyledGreeting>
+                <div>
+                    Attack Map shows the origin and type of packets that are blocked by the
+                    firewall.
+                </div>
             </StyledContainer>,
             {
                 theme,

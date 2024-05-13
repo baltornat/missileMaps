@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<view template="pew-pew:/templates/start.html" type="html">
+	<label>Attack Map</label>
+</view>
