@@ -69,3 +69,7 @@ You can use a built in OS archive command to package a Splunk app, for example a
 ## App sample
 
 ![alt text](https://github.com/baltornat/missileMaps/blob/main/docs/images/attack_map_sample.png).
+
+## To do
+1. Enable logging to a custom Splunk index
+2. Add configuration tab to change basic config parameters
